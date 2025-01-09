@@ -68,6 +68,9 @@ def is_db_size_exceeded(file_path: str, size_limit_mb: int = 1024) -> bool:
 connection = init_db()
 
 # Load authenticator config
+# This is bad practice as it exposes the hash in GitHub.
+# This info should be stored in streamlit secrets.
+
 with open('./config.yml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
