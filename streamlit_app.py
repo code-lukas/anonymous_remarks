@@ -69,7 +69,8 @@ connection = init_db()
 
 # Load authenticator config
 # This is bad practice as it exposes the hash in GitHub.
-# This info should be stored in streamlit secrets.
+# This info should be stored in streamlit secrets - we keep it here for transparency reasons.
+# Do not do stuff like this in production!
 
 with open('./config.yml') as file:
     config = yaml.load(file, Loader=SafeLoader)

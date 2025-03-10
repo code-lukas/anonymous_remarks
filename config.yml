@@ -2,7 +2,7 @@ credentials:
   usernames:
     admin:
       name: admin
-      password: $2b$12$pfPJ7PYrmMoo6qOFbVUMqeNGIqUxb/lAWhMAUyYnDgMNxoVbsWKZe
+      password: $2b$12$cTWTIN00RaUPyZAcH9BQRu/NVfhUfKvE7Xj2jpefZVKUi1xZ6r2VW
     participant:
       name: participant
       password: $2b$12$fZmF.qAo5QF6ozlyaupNt.6F1CiV5pHM7XbReH0zfQjNOvO06a11a
